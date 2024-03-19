@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("calculator-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    height: 800px;
+}
+
+.main {
+    width: 350px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 3px solid rgb(61, 182, 196);
+    border-radius: 5px;
+    background-color: #b7d4ec;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#btn1, #btn2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28b6c3;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
